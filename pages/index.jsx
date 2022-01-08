@@ -4,7 +4,7 @@
 import Head from 'next/head';
 import styles from '../styles/Q.module.css';
 import React from 'react';
-import { Header, Footer } from './components.jsx';
+import { Header, Footer } from '../lib/components.js';
 
 class App extends React.Component {
   constructor(props) {
