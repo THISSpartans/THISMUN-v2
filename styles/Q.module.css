@@ -322,12 +322,13 @@
   .content {
     transition: 200ms all;
     width: 100%;
+    padding: 1rem;
   }
-  /* line 290, ../../../../../Users/andrewli/Desktop/code/THISMUN-v2/scss/Q.module.scss */
+  /* line 291, ../../../../../Users/andrewli/Desktop/code/THISMUN-v2/scss/Q.module.scss */
   .content img {
     width: 100%;
   }
-  /* line 294, ../../../../../Users/andrewli/Desktop/code/THISMUN-v2/scss/Q.module.scss */
+  /* line 295, ../../../../../Users/andrewli/Desktop/code/THISMUN-v2/scss/Q.module.scss */
   .content .content__wrap {
     width: 100%;
   }
