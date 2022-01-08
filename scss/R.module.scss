@@ -1,9 +1,8 @@
 $primary: #82318E;
 .profile {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 1rem;
+    width: 100vw;
 
     .profile_text {
         display: flex;
@@ -37,12 +36,27 @@ $primary: #82318E;
         transition: 300ms all ease-in-out;
         width: 15rem;
         height: 15rem;
-        min-width: 15rem;
         border: 1px solid #AAAAAA;
     }
 
     .profile_img:hover {
         transform: scale(1.1);
         transition: 300ms all ease-in-out;
+    }
+}
+
+@media (min-width: 768px) {
+    .profile {
+        flex-direction: row;
+        transition: 200ms all;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        transition: 200ms all;
+        align-items: flex-start;
     }
 }

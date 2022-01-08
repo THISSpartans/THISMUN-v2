@@ -55,7 +55,17 @@ class App extends React.Component {
         <div className={styles.content__wrap}>
           <div>
             <h1>about our school</h1>
-            <img src="https://d1y6uh7b11nqzc.cloudfront.net/school.jpg" width="50%"></img>
+            <div style={{
+              backgroundImage: `url(https://d1y6uh7b11nqzc.cloudfront.net/school.jpg)`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              margin: "1rem",
+              marginLeft: "0",
+              borderRadius: "2rem",
+              width: "100%",
+              height: "50vh"
+            }}/>
+
             <p>Tsinghua International School (THIS) is affiliated with Tsinghua University High School. THIS has assembled a team of highly qualified teachers from around the world and aims to provide an education that merges Western educational standards with Eastern cultural perspectives. Hence, Tsinghua International School fosters creative critical thinkers who are rooted in China and prepared to lead in the global community. THIS is a community of joyful learners – students, families, teachers, and staff members – founded on, committed to, and united by our core values: leadership, collaboration, innovation, respect, integrity, and most of all, wellbeing.</p>
             <h1>about our exec team</h1>
             {execs.map((i, index) => (

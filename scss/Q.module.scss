@@ -19,11 +19,11 @@ $white: #FFF;
     background-color: $primary;
 
     .header {
-        background-color: $primary;
         padding: 0.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100vw;
 
         .header__logo {
             width: 80px;
@@ -74,6 +74,7 @@ $white: #FFF;
     main {
         background-color: #FFF;
         padding: 1rem;
+        width: 100vw;
 
         h1 {
             font-weight: 900;
@@ -97,8 +98,6 @@ $white: #FFF;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 70%;
-            padding: 3rem;
         }
 
         a {
@@ -115,13 +114,13 @@ $white: #FFF;
             justify-content: center;
             //align-items: center;
             width: 100%;
-            min-width: 400px;
+            min-width: 200px;
 
             img {
                 padding: 0.5rem;
                 border-radius: 2rem;
                 width: 70%;
-                min-width: 400px;
+                min-width: 300px;
             }
 
             p, h1 {
@@ -268,6 +267,32 @@ $white: #FFF;
                 transition: 300ms all;
                 cursor: pointer;
             }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+
+    .content {
+        padding: 3rem;
+        width: 70%;
+        transition: 200ms all;
+        img {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        transition: 200ms all;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+
+        .content__wrap {
+            width: 100%;
         }
     }
 }
