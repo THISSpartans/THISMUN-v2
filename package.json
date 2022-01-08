@@ -1,0 +1,31 @@
+{
+  "name": "thismun-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/THISSpartans/THISMUN-v2.git",
+  "author": "Andrew Li <54134293+andrewleaf22@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "lint": "next lint"
+  },
+  "private": false,
+  "dependencies": {
+    "@redcoral/imagebox": "^1.0.2",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-typing-effect": "^2.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-next": "12.0.7"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE",
+    "maintained node versions"
+  ]
+}

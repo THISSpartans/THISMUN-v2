@@ -1,0 +1,56 @@
+/* line 2, ../../../../../Users/andrewli/Desktop/code/THISMUN-v2/scss/R.module.scss */
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* line 8, ../../../../../Users/andrewli/Desktop/code/THISMUN-v2/scss/R.module.scss */
+.profile .profile_text {
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem;
+  min-width: 300px;
+}
+
+/* line 14, ../../../../../Users/andrewli/Desktop/code/THISMUN-v2/scss/R.module.scss */
+.profile .profile_text h1:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #82318E;
+  margin: 0;
+}
+
+/* line 21, ../../../../../Users/andrewli/Desktop/code/THISMUN-v2/scss/R.module.scss */
+.profile .profile_text h1:nth-child(2) {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #82318E;
+  margin: 0;
+}
+
+/* line 28, ../../../../../Users/andrewli/Desktop/code/THISMUN-v2/scss/R.module.scss */
+.profile .profile_text p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #181818;
+  margin: 0;
+}
+
+/* line 36, ../../../../../Users/andrewli/Desktop/code/THISMUN-v2/scss/R.module.scss */
+.profile .profile_img {
+  transition: 300ms all ease-in-out;
+  width: 15rem;
+  height: 15rem;
+  min-width: 15rem;
+  border: 1px solid #AAAAAA;
+}
+
+/* line 44, ../../../../../Users/andrewli/Desktop/code/THISMUN-v2/scss/R.module.scss */
+.profile .profile_img:hover {
+  transform: scale(1.1);
+  transition: 300ms all ease-in-out;
+}
+
+/*# sourceMappingURL=R.module.css.map */

@@ -1,0 +1,48 @@
+$primary: #82318E;
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+
+    .profile_text {
+        display: flex;
+        flex-direction: column;
+        padding: 0.4rem;
+        min-width: 300px;
+
+        h1:nth-child(1) {
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: $primary;
+            margin: 0;
+        }
+
+        h1:nth-child(2) {
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: $primary;
+            margin: 0;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #181818;
+            margin: 0;
+        }
+    }
+
+    .profile_img {
+        transition: 300ms all ease-in-out;
+        width: 15rem;
+        height: 15rem;
+        min-width: 15rem;
+        border: 1px solid #AAAAAA;
+    }
+
+    .profile_img:hover {
+        transform: scale(1.1);
+        transition: 300ms all ease-in-out;
+    }
+}
