@@ -132,7 +132,7 @@
 .wrapper main .content__wrap img {
   padding: 0.5rem;
   border-radius: 2rem;
-  width: 70%;
+  width: 100%;
   min-width: 300px;
 }
 
