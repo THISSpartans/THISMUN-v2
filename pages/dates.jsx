@@ -43,7 +43,7 @@ class App extends React.Component {
 
     const DATES = [
       {date: 'September 25, 2021', desc: "Early registration deadline. Register before this date for a ¥150 discount!"},
-      {date: 'December 25, 2021', desc: "FINAL registration deadline."},
+      {date: 'February 1, 2021', desc: "Standard registration deadline."},
       {date: 'March 18, 2022', desc: "THISMUN conference begins"},
       {date: 'March 20, 2022', desc: "THISMUN conference ends"},
     ];
@@ -102,7 +102,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>THIS MUN II</title>
+        <title>Dates and Deadlines</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <App/>

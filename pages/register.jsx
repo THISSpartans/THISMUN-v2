@@ -47,7 +47,7 @@ class App extends React.Component {
           <h1>registration information</h1>
           <div style={{display: "flex"}}>
             <p><b>Early-bird deadline</b><br/>9/25/2021</p>
-            <p><b>Standard deadline</b><br/>12/25/2021</p>
+            <p><b>Standard deadline</b><br/>2/1/2022</p>
             <p><b>Early-bird registration fee</b><br/>¥550/delegate</p>
             <p><b>Standard registration fee</b><br/>¥700/delegate</p>
           </div>
@@ -98,7 +98,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>THIS MUN II</title>
+        <title>Registration</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <App/>

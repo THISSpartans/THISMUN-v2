@@ -108,7 +108,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>THIS MUN II</title>
+        <title>About Us</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <App/>

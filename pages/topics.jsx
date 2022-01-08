@@ -102,7 +102,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>THIS MUN II</title>
+        <title>Topics and Committees</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <App/>
