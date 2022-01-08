@@ -42,10 +42,10 @@ class App extends React.Component {
     ];
 
     let topics = [
-      {img: "/UNESCO.png", name: "UNESCO", topicA: "Era of Inequality led by Increasing Socioeconomic Gaps in Education", topicB: "Impact of Different Levels of Education on Employment", chair: "Wenny Wang", cochair: "Charlotte Song"},
-      {img: "/UNODC.png", name: "UNODC", topicA: "Policing the Injustice in Police Brutality", topicB: "Combatting Trafficking in Persons and Smuggling of Migrants", chair: "Charlotte Wang", cochair: "Sidney Wang"},
-      {img: "/UNEP.png", name: "UNEP", topicA: "Balancing Arctic Shipping and Environmental Protections", topicB: "Arctic Biodiversity Protection", chair: "William Shan", cochair: "Andrew Li"},
-      {img: "/WHO.png", name: "WHO", topicA: "Development of Tobacco Control within States", topicB: "Control and Prevention of AIDS", chair: "Jane Ma", cochair: "Zack Sui"}
+      {img: "https://d1y6uh7b11nqzc.cloudfront.net/UNESCO.png", name: "UNESCO", topicA: "Era of Inequality led by Increasing Socioeconomic Gaps in Education", topicB: "Impact of Different Levels of Education on Employment", chair: "Wenny Wang", cochair: "Charlotte Song"},
+      {img: "https://d1y6uh7b11nqzc.cloudfront.net/UNODC.png", name: "UNODC", topicA: "Policing the Injustice in Police Brutality", topicB: "Combatting Trafficking in Persons and Smuggling of Migrants", chair: "Charlotte Wang", cochair: "Sidney Wang"},
+      {img: "https://d1y6uh7b11nqzc.cloudfront.net/UNEP.png", name: "UNEP", topicA: "Balancing Arctic Shipping and Environmental Protections", topicB: "Arctic Biodiversity Protection", chair: "William Shan", cochair: "Andrew Li"},
+      {img: "https://d1y6uh7b11nqzc.cloudfront.net/WHO.png", name: "WHO", topicA: "Development of Tobacco Control within States", topicB: "Control and Prevention of AIDS", chair: "Jane Ma", cochair: "Zack Sui"}
     ];
 
     let content = (

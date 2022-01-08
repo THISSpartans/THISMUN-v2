@@ -45,7 +45,7 @@ class App extends React.Component {
     let content = (
       <div className={styles.content}>
         <div className={styles.content__wrap}>
-          <img src="/EXECS.jpeg" width="50%"></img>
+          <img src="https://d1y6uh7b11nqzc.cloudfront.net/EXECS.jpeg" width="50%"></img>
           <div>
             <h1>welcome to THIS MUN! <span className={styles.emoji}>👋</span></h1>
             <p>Welcome to the official website of THISMUN II! Here at Tsinghua International School, our core values are collaboration, discovery, engagement, cultural diversity, and Tsinghua Spirit. These are all values we emphasize in our Model United Nations club. THIS MUN is now hosting our first ever interschool conference in March 2022 on the theme, <em>Fostering Global Ethics in an Age of Post Truths.</em></p>

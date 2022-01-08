@@ -42,12 +42,12 @@ class App extends React.Component {
     ];
 
     let execs = [
-      {image: "/execs/mw.jpg", name: "Martin Wong", position: "Secretary-General", birthday: "July 17th, 2004", age: "17", hobbies: "Volleyball & Soccer", food: "No one can resist the power of tacos!!"},
-      {image: "/execs/ww.jpg", name: "Wenny Wang", position: "Executive Member & Designer", birthday: "February 6th, 2005", age: "16", hobbies: "Volleyball, Skiing, Traveling", food: "Sweet and sour pork"},
-      {image: "/execs/jm.jpg", name: "Jane Ma", position: "Executive Member", birthday: "December 9th, 2004", age: "17", hobbies: "Volleyball and art!!", food: "Singaporean street vendor waffles with kaya jam"},
-      {image: "/execs/cw.jpg", name: "Charlotte Wang", position: "Delegate Trainer", birthday: "November 12th, 2004", age: "17", hobbies: "Listen to music, play animal crossing, DIY key chains", food: "Ramen, 海底捞"},
-      {image: "/execs/ws.jpg", name: "William Shan", position: "Delegate Trainer", birthday: "September 10th, 2005", age: "16", hobbies: "Gaming, reading history, basketball", food: "Pizza", bgp: "top center"},
-      {image: "/execs/zs.jpg", name: "Zack Sui", position: "Delegate Trainer", birthday: "January 11th, 2005", age: "17", hobbies: "Computer games, programming, history", food: "洋芋"}
+      {image: "https://d1y6uh7b11nqzc.cloudfront.net/execs/mw.jpg", name: "Martin Wong", position: "Secretary-General", birthday: "July 17th, 2004", age: "17", hobbies: "Volleyball & Soccer", food: "No one can resist the power of tacos!!"},
+      {image: "https://d1y6uh7b11nqzc.cloudfront.net/execs/ww.jpg", name: "Wenny Wang", position: "Executive Member & Designer", birthday: "February 6th, 2005", age: "16", hobbies: "Volleyball, Skiing, Traveling", food: "Sweet and sour pork"},
+      {image: "https://d1y6uh7b11nqzc.cloudfront.net/execs/jm.jpg", name: "Jane Ma", position: "Executive Member", birthday: "December 9th, 2004", age: "17", hobbies: "Volleyball and art!!", food: "Singaporean street vendor waffles with kaya jam"},
+      {image: "https://d1y6uh7b11nqzc.cloudfront.net/execs/cw.jpg", name: "Charlotte Wang", position: "Delegate Trainer", birthday: "November 12th, 2004", age: "17", hobbies: "Listen to music, play animal crossing, DIY key chains", food: "Ramen, 海底捞"},
+      {image: "https://d1y6uh7b11nqzc.cloudfront.net/execs/ws.jpg", name: "William Shan", position: "Delegate Trainer", birthday: "September 10th, 2005", age: "16", hobbies: "Gaming, reading history, basketball", food: "Pizza", bgp: "top center"},
+      {image: "https://d1y6uh7b11nqzc.cloudfront.net/execs/zs.jpg", name: "Zack Sui", position: "Delegate Trainer", birthday: "January 11th, 2005", age: "17", hobbies: "Computer games, programming, history", food: "洋芋"}
     ];
 
     let content = (
@@ -55,7 +55,7 @@ class App extends React.Component {
         <div className={styles.content__wrap}>
           <div>
             <h1>about our school</h1>
-            <img src="/school.jpg" width="50%"></img>
+            <img src="https://d1y6uh7b11nqzc.cloudfront.net/school.jpg" width="50%"></img>
             <p>Tsinghua International School (THIS) is affiliated with Tsinghua University High School. THIS has assembled a team of highly qualified teachers from around the world and aims to provide an education that merges Western educational standards with Eastern cultural perspectives. Hence, Tsinghua International School fosters creative critical thinkers who are rooted in China and prepared to lead in the global community. THIS is a community of joyful learners – students, families, teachers, and staff members – founded on, committed to, and united by our core values: leadership, collaboration, innovation, respect, integrity, and most of all, wellbeing.</p>
             <h1>about our exec team</h1>
             {execs.map((i, index) => (
