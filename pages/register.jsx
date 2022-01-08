@@ -48,8 +48,8 @@ class App extends React.Component {
           <div style={{display: "flex"}}>
             <p><b>Early-bird deadline</b><br/>9/25/2021</p>
             <p><b>Standard deadline</b><br/>2/1/2022</p>
-            <p><b>Early-bird registration fee</b><br/>¥550/delegate</p>
-            <p><b>Standard registration fee</b><br/>¥700/delegate</p>
+            <p><b>Early-bird registration fee</b><br/>TBD</p>
+            <p><b>Standard registration fee</b><br/>TBD</p>
           </div>
           <iframe className={styles.form} src="https://forms.office.com/Pages/ResponsePage.aspx?id=Kg2a5b7u2U6De0teNfqKAGTI6dV50OFLkBB2piqgzy9UQ1dFUjdaTTlBTkxXVlFVQkVQWVdWMDMyUi4u&embed=true" frameBorder= "0" marginWidth= "0" marginHeight= "0" style={{border: "none"}} allowFullScreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
         </div>
