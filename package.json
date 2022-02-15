@@ -2,8 +2,8 @@
   "name": "thismun-v2",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/THISSpartans/THISMUN-v2.git",
-  "author": "Andrew Li <54134293+andrewleaf22@users.noreply.github.com>",
+  "repository": "https://github.com/andrewli06/thismun.com.git",
+  "author": "Andrew Li",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",

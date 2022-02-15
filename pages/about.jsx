@@ -43,7 +43,7 @@ class App extends React.Component {
 
     let execs = [
       {image: "https://d1y6uh7b11nqzc.cloudfront.net/execs/mw.jpg", name: "Martin Wong", position: "Secretary-General", birthday: "July 17th, 2004", age: "17", hobbies: "Volleyball & Soccer", food: "No one can resist the power of tacos!!"},
-      {image: "https://d1y6uh7b11nqzc.cloudfront.net/execs/ww.jpg", name: "Wenny Wang", position: "Executive Member & Designer", birthday: "February 6th, 2005", age: "16", hobbies: "Volleyball, Skiing, Traveling", food: "Sweet and sour pork"},
+      {image: "https://d1y6uh7b11nqzc.cloudfront.net/execs/ww.jpg", name: "Wenny Wang", position: "Executive Member & Designer", birthday: "February 6th, 2005", age: "17", hobbies: "Volleyball, Skiing, Traveling", food: "Sweet and sour pork"},
       {image: "https://d1y6uh7b11nqzc.cloudfront.net/execs/jm.jpg", name: "Jane Ma", position: "Executive Member", birthday: "December 9th, 2004", age: "17", hobbies: "Volleyball and art!!", food: "Singaporean street vendor waffles with kaya jam"},
       {image: "https://d1y6uh7b11nqzc.cloudfront.net/execs/cw.jpg", name: "Charlotte Wang", position: "Delegate Trainer", birthday: "November 12th, 2004", age: "17", hobbies: "Listen to music, play animal crossing, DIY key chains", food: "Ramen, 海底捞"},
       {image: "https://d1y6uh7b11nqzc.cloudfront.net/execs/ws.jpg", name: "William Shan", position: "Delegate Trainer", birthday: "September 10th, 2005", age: "16", hobbies: "Gaming, reading history, basketball", food: "Pizza", bgp: "top center"},
