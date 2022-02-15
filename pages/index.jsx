@@ -46,14 +46,14 @@ class App extends React.Component {
       <div className={styles.content}>
         <div className={styles.content__wrap}>
         <div style={{
-              backgroundImage: `url(https://d1y6uh7b11nqzc.cloudfront.net/EXECS.jpeg)`,
-              backgroundPosition: "center",
-              backgroundSize: "cover",
+              backgroundImage: `url(/Execs_Final.jpg)`,
+              backgroundPosition: "left",
+              backgroundSize: "contain",
               margin: "1rem",
               marginLeft: "0",
-              borderRadius: "2rem",
               width: "100%",
-              height: "50vh"
+              height: "60vh",
+              backgroundRepeat: "no-repeat"
             }}/>
           <div>
             <h1>welcome to THIS MUN! <span className={styles.emoji}>👋</span></h1>
@@ -64,7 +64,7 @@ class App extends React.Component {
           </div>
 
           <h1>sincerely,</h1>
-          <div id={styles.exec}>{["Ms. Benita Sumita", "Jiangshan Gao", "Jane Ma", "William Shan", "Zack Sui", "Charlotte Wang", "Wenny Wang", "Martin Wong"].map((i, index) => (
+          <div id={styles.exec}>{["Ms. Benita Sumita", "Martin Wong", "Jane Ma", "Wenny Wang", "Charlotte Wang", "William Shan", "Zack Sui"].map((i, index) => (
             <p key={index}>{i}</p>
           ))}</div>
 
